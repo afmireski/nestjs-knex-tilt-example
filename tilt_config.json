@@ -1,0 +1,20 @@
+{
+    "repositories": {
+        "nestjs-knex-example": {
+          "type": "nest",
+          "path": "./nestjs-knex-example",
+          "manifestFile": "./cluster/nestjs-knex-manifest.yaml",
+          "customDockerFile": null,
+          "port_forwards": [
+            {
+              "local": 3000,
+              "container": 3000,
+              "name": "Endpoint"
+            }
+          ],
+          "development": false,
+          "entrypoint": "yarn start:dev",
+          "labels": ["App"]
+        }
+    }
+}

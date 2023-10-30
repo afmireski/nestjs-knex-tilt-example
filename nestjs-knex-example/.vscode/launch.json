@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}",
+      "name": "Debug nestjs-knex-example",
+      "port": 9229,
+      "remoteRoot": "/usr/src/app",
+      "request": "attach",
+      "restart": true,
+      "sourceMaps": true,
+      "type": "node"
+    }
+  ],
+  "version": "0.2.0"
+}
+
